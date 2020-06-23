@@ -45,7 +45,7 @@ def upload():
         # Save the file to ./uploads
         basepath = os.path.dirname(__file__)
         file_path = os.path.join(
-            basepath, 'static/image', secure_filename(file.filename))
+            basepath, 'static', secure_filename(file.filename))
         file.save(file_path)
 
         # Make prediction
