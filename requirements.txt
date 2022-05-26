@@ -2,7 +2,7 @@ gevent==20.6.1
 greenlet==0.4.16
 zope.event==4.4
 zope.interface==5.1.0
-tensorflow==2.2.0
+tensorflow==2.7.2
 tensorflow-estimator==2.2.0
 Keras==2.3.1
 Keras-Applications==1.0.8
